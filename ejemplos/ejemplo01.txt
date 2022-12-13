@@ -15,15 +15,11 @@
 9.  notasEstudiantes2[0] <-- 8
 10. notasEstudiantes2[1] <-- 9
 11. notasEstudiantes2[2] <-- 10
-12. Para(indice<--0, indice<3, 1) haga // 0<3 v // 1<3 v // 2<3 v // 3<3
-13.   suma <- suma + notasEstudiante1[indice] // suma = 0 + notasEstudiante1[0] = 0 + 9 = 9
-                                         // suma = 17 + notasEstudiante1[1] = 17 + 10 = 27
-                                         // suma = 36 + notasEstudiante1[2] = 36 + 7 = 43
-14.   suma <- suma + notasEstudiante2[indice] // suma = 9 + notasEstudiante2[0] = 9 + 8 = 17
-                                         // suma = 27 + notasEstudiante2[1] = 27 + 9 = 36
-                                         // suma = 43 + notasEstudiante2[2] = 43 + 10 = 53
-15. Fin_Para
+12. mientras indice <= 2 entonces
+13.     suma <-- suma + notasEstudiantes1[indice]
+14.     suma <-- suma + notasEstudiantes2[indice]
+15.     indice <-- indice + 1
+16. FinMientras
 16. Escribir suma // 53
 17. Fin
-
 // Solución ciclo Mientras
